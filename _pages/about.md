@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-!(images/profile.png)
+![screenshot](images/profile.png)
 
 Welcome! I'm Chris Flores, a PhD Candidate in political science at Stanford University. 
 
