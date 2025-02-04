@@ -5,12 +5,16 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+---
+
+---
+---
+
 @import "{{ site.theme }}";
 
 .inner {
   max-width: 75%;
 }
----
 
 
 
