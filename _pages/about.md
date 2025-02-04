@@ -1,13 +1,4 @@
 ---
-permalink: /
-title: ""
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
-
----
 ---
 
 @import "{{ site.theme }}";
@@ -15,6 +6,15 @@ redirect_from:
 .inner {
   max-width: 75%;
 }
+
+---
+permalink: /
+title: ""
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
 
 
 
