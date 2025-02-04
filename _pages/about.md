@@ -5,9 +5,6 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
-.inner {
-  max-width: 75%;
-}
 ---
 
 
