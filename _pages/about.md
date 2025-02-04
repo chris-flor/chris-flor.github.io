@@ -9,7 +9,7 @@ redirect_from:
 
 
 
-<img align="left" src="images/website profile small.JPEG" alt="image" />
+<img align="left" src="images/website profile small.jpeg" alt="image" />
 
 Welcome! I'm Chris Flores, a PhD Candidate in political science at Stanford University. 
 
