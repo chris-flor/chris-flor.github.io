@@ -1,19 +1,13 @@
 ---
----
-
-@import "{{ site.theme }}";
-
-.inner {
-  max-width: 75%;
-}
-
----
 permalink: /
 title: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+.inner {
+  max-width: 75%;
+}
 ---
 
 
