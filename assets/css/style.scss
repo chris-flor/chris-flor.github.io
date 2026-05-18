@@ -3,6 +3,14 @@
 
 @import "jekyll-theme-minimal";
 
+section {
+  margin-top: 0 !important;
+}
+
+nav ul {
+  margin-top: 0 !important;
+}
+
 nav ul {
   list-style: none;
   padding: 0;
