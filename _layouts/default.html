@@ -13,43 +13,59 @@
     <![endif]-->
     {% include head-custom.html %}
     <style>
-      /* Full-width top nav */
       body {
-        padding-top: 60px;
+        padding-top: 50px;
       }
+
+      /* Top nav */
       #topnav {
         position: fixed;
         top: 0;
         left: 0;
         width: 100%;
-        background-color: #2c3e50;
+        background-color: #f5f5f5;
+        border-bottom: 1px solid #ddd;
         z-index: 9999;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
       }
       #topnav ul {
         list-style: none;
-        margin: 0;
-        padding: 0 2rem;
+        margin: 0 auto;
+        padding: 0;
         display: flex;
-        gap: 2rem;
-        height: 60px;
+        justify-content: center;
+        gap: 2.5rem;
+        height: 50px;
         align-items: center;
       }
       #topnav ul li a {
-        color: #ffffff;
+        color: #494e52;
         text-decoration: none;
-        font-size: 1.2rem;
-        font-weight: bold;
-        letter-spacing: 0.03em;
+        font-size: 1.1rem;
+        font-weight: 600;
+        letter-spacing: 0.02em;
       }
       #topnav ul li a:hover {
-        color: #aac4e0;
+        color: #000;
+      }
+
+      /* On non-home pages, hide the sidebar and give section full width */
+      body.no-sidebar .wrapper {
+        display: block;
+      }
+      body.no-sidebar header {
+        display: none;
+      }
+      body.no-sidebar section {
+        float: none;
+        width: 100%;
+        max-width: 740px;
+        margin: 2rem auto;
+        padding: 0 1.5rem;
       }
     </style>
   </head>
-  <body>
+  <body class="{{ page.layout }}{% if page.url != '/' %} no-sidebar{% endif %}">
 
-    <!-- TOP NAVIGATION BAR -->
     <nav id="topnav">
       <ul>
         <li><a href="{{ '/' | relative_url }}">Home</a></li>
@@ -90,4 +106,3 @@
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>
-
