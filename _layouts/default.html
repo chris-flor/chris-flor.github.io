@@ -4,33 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="icon" href="assets/favicon.png" type="image/png">
-    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-
-{% seo %}
-    <link rel="stylesheet" href="{{ "../assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="icon" href="/assets/favicon.png" type="image/png">
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+    {% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
-    
+    <style>
+      /* Full-width top nav */
+      body {
+        padding-top: 60px;
+      }
+      #topnav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #2c3e50;
+        z-index: 9999;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      }
+      #topnav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0 2rem;
+        display: flex;
+        gap: 2rem;
+        height: 60px;
+        align-items: center;
+      }
+      #topnav ul li a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: bold;
+        letter-spacing: 0.03em;
+      }
+      #topnav ul li a:hover {
+        color: #aac4e0;
+      }
+    </style>
   </head>
   <body>
+
+    <!-- TOP NAVIGATION BAR -->
+    <nav id="topnav">
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/research' | relative_url }}">Research</a></li>
+        <li><a href="{{ '/teaching' | relative_url }}">Teaching</a></li>
+        <li><a href="{{ '/outdoors' | relative_url }}">Outdoors</a></li>
+      </ul>
+    </nav>
+
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
-
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-
         {% if site.github.is_user_page %}
         <p class="view">You can view my CV <a href="/flores cv 10 07.pdf" target="_blank">here</a>.</p>
         {% endif %}
-
         {% if site.show_downloads %}
         <ul class="downloads">
           <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
@@ -39,25 +77,14 @@
         </ul>
         {% endif %}
       </header>
-      <section style="padding-top: 60px;">
-        <nav>
-          <ul style="list-style:none; padding:0; display:flex; gap:1.5rem; margin-top:0; margin-bottom:1.5rem; border-bottom:1px solid #ddd; padding-bottom:0.75rem; flex-wrap:wrap;">
-            <li><a href="{{ '/' | relative_url }}" style="font-size:1.4rem; font-weight:bold; text-decoration:none; color:#494e52;">Home</a></li>
-            <li><a href="{{ '/research' | relative_url }}" style="font-size:1.4rem; font-weight:bold; text-decoration:none; color:#494e52;">Research</a></li>
-            <li><a href="{{ '/teaching' | relative_url }}" style="font-size:1.4rem; font-weight:bold; text-decoration:none; color:#494e52;">Teaching</a></li>
-            <li><a href="{{ '/outdoors' | relative_url }}" style="font-size:1.4rem; font-weight:bold; text-decoration:none; color:#494e52;">Outdoors</a></li>
-          </ul>
-        </nav>
-
-
-      {{ content }}
-
+      <section>
+        {{ content }}
       </section>
       <footer>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
-     <!-- <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p> -->
+        <!-- <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p> -->
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
