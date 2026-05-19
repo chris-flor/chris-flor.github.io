@@ -8,23 +8,26 @@
     <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
     <style>
       body {
-        padding-top: 50px;
+        padding-top: 60px;
+        font-family: 'Source Sans 3', sans-serif;
       }
 
-      /* Top nav */
+      /* Match nav color to "Chris Flores" h1 link color */
       #topnav {
         position: fixed;
         top: 0;
         left: 0;
         width: 100%;
-        background-color: #f5f5f5;
-        border-bottom: 1px solid #ddd;
+        background-color: #232323;
         z-index: 9999;
       }
       #topnav ul {
@@ -38,17 +41,23 @@
         align-items: center;
       }
       #topnav ul li a {
-        color: #494e52;
+        color: #f5f5f5;
         text-decoration: none;
         font-size: 1.1rem;
         font-weight: 600;
-        letter-spacing: 0.02em;
+        letter-spacing: 0.05em;
+        font-family: 'Source Sans 3', sans-serif;
       }
       #topnav ul li a:hover {
-        color: #000;
+        color: #aaaaaa;
       }
 
-      /* On non-home pages, hide the sidebar and give section full width */
+      /* Extra breathing room below nav on home page */
+      .wrapper header {
+        padding-top: 1.5rem;
+      }
+
+      /* Non-home pages: hide sidebar, center content */
       body.no-sidebar .wrapper {
         display: block;
       }
@@ -59,7 +68,7 @@
         float: none;
         width: 100%;
         max-width: 740px;
-        margin: 2rem auto;
+        margin: 2.5rem auto;
         padding: 0 1.5rem;
       }
     </style>
