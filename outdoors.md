@@ -9,7 +9,7 @@ When I'm not doing research, you can find me outdoors! Below are some of the rac
 
 ## Running
 
-<figure style="width: 50%; margin: 1rem auto;">
+<figure style="width: 50%; margin: 1rem 0;">
   <img src="/assets/img/trailfest.JPG" style="width: 100%; display: block;">
   <figcaption style="text-align: center; font-style: italic;">April '26: Stanford Alpine Club Trailfest 16 miler</figcaption>
 </figure>
