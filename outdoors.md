@@ -9,7 +9,7 @@ When I'm not doing research, you can find me outdoors! Below are some of the rac
 
 ## Running
 
-![April '26: Stanford Alpine Club Trailfest 16 miler](/assets/img/trailfest.JPG)
+![April '26: Stanford Alpine Club Trailfest 16 miler](/assets/img/trailfest.JPG){: style="width: 50%; display: block; margin: 1rem auto;"}
 
 ![Nov '25: Berkeley Half-Marathon (2nd place nonbinary finisher)](/assets/img/IMG_1619.HEIC)
 
