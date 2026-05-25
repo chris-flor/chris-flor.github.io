@@ -11,7 +11,7 @@ When I'm not doing research, you can find me outdoors! Below are some of the rac
 
 <figure style="width: 40%; margin: 1rem 0;">
   <img src="/assets/img/trailfest.JPG" style="width: 100%; display: block;">
-  <figcaption style="text-align: center; font-style: italic;">April '26: Stanford Alpine Club Trailfest 16 miler</figcaption>
+  <figcaption style="text-align: center; font-style: italic;">Apr '26: Stanford Alpine Club Trailfest 16 miler</figcaption>
 </figure>
 
 <figure style="width: 40%; margin: 1rem 0;">
@@ -20,6 +20,8 @@ When I'm not doing research, you can find me outdoors! Below are some of the rac
 </figure>
 
 ## Trekking
+
+March '26: Nanhu Circuit + Mabishan, Taroko National Park, Taiwan (4 days)
 
 
 
