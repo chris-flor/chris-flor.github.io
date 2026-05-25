@@ -23,7 +23,7 @@ When I'm not doing research, you can find me outdoors! Below are some of the rac
 
 March '26: Nanhu Circuit + Mabishan, Taroko National Park, Taiwan (4 days)
 
-<div style="display: flex; gap: 1rem;">
+<div style="width: 140%; display: flex; gap: 1rem; align-items: flex-start;">
   <figure style="width: 33%; margin: 0;">
     <img src="/assets/img/taiwan_1.jpeg" style="width: 100%; display: block;">
   </figure>
