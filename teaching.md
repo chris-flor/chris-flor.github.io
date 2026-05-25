@@ -11,6 +11,11 @@ Teaching and mentorship are core aspects of my work as a scholar. In 2026, I rec
 
 - Introduction to American Politics (Teaching Assistant for Hakeem Jefferson and Adam Bonica): Winter 2024
 
+<figure style="width: 70%; margin: 1rem 0;">
+  <img src="/assets/img/trailfest.JPG" style="width: 100%; display: block;">
+  <figcaption style="text-align: center; font-style: italic;">Racial-Ethnic Politics in the U.S., Fall 2023 Class Photo miler</figcaption>
+</figure>
+
 
 
 
