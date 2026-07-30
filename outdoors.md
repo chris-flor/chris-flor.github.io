@@ -87,6 +87,8 @@ When I'm not doing research, you can find me outdoors! Below are some of the rac
 
 ## Running
 
+July '26: San Francisco Marathon (3:20:50)
+
 <figure class="sf-marathon-figure">
   <div class="sf-marathon-grid">
     <img
@@ -98,11 +100,9 @@ When I'm not doing research, you can find me outdoors! Below are some of the rac
       alt="At the San Francisco Marathon"
     >
   </div>
-
-  <figcaption class="photo-caption">
-    July '26: San Francisco Marathon (3:20:50)
-  </figcaption>
 </figure>
+
+Apr '26: Stanford Alpine Club Trailfest 16 miler
 
 <figure class="running-photo">
   <img
@@ -110,10 +110,9 @@ When I'm not doing research, you can find me outdoors! Below are some of the rac
     alt="Stanford Alpine Club Trailfest"
   >
 
-  <figcaption class="photo-caption">
-    Apr '26: Stanford Alpine Club Trailfest 16 miler
-  </figcaption>
 </figure>
+
+Nov '25: Berkeley Half-Marathon (1:26:44)
 
 <figure class="running-photo">
   <img
@@ -121,9 +120,6 @@ When I'm not doing research, you can find me outdoors! Below are some of the rac
     alt="Berkeley Half-Marathon"
   >
 
-  <figcaption class="photo-caption">
-    Nov '25: Berkeley Half-Marathon (1:26:44)
-  </figcaption>
 </figure>
 
 ## Trekking
