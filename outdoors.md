@@ -9,9 +9,14 @@ When I'm not doing research, you can find me outdoors! Below are some of the rac
 
 ## Running
 
-<figure style="width: 40%; margin: 1rem 0;">
-  <img src="/assets/img/trailfest.JPG" style="width: 100%; display: block;">
-  <figcaption style="text-align: center; font-style: italic;">July '26: San Francisco Marathon (3:20:50) </figcaption>
+<figure style="width: 140%; margin: 0;">
+  <div style="display: flex; gap: 1rem; align-items: flex-start;">
+    <img src="/assets/img/sfm1.JPG" alt="First image" style="width: 50%; display: block;">
+    <img src="/assets/img/sfm2.jpg" alt="Second image" style="width: 50%; display: block;">
+  </div>
+  <figcaption style="margin-top: 0.5rem; text-align: center; font-size: 0.9rem;">
+    July '26: San Francisco Marathon (3:20:50)
+  </figcaption>
 </figure>
 
 <figure style="width: 40%; margin: 1rem 0;">
@@ -25,6 +30,20 @@ When I'm not doing research, you can find me outdoors! Below are some of the rac
 </figure>
 
 ## Trekking
+
+July '26: Kilimanjaro (7 days Lemosho Route)
+
+<div style="width: 140%; display: flex; gap: 1rem; align-items: flex-start;">
+  <figure style="width: 33%; margin: 0;">
+    <img src="/assets/img/kili1_together.JPG" style="width: 100%; display: block;">
+  </figure>
+  <figure style="width: 33%; margin: 0;">
+    <img src="/assets/img/kili3.jpg" style="width: 100%; display: block;">
+  </figure>
+  <figure style="width: 33%; margin: 0;">
+    <img src="/assets/img/kili1.jpg" style="width: 100%; display: block;">
+  </figure>
+</div>
 
 March '26: Nanhu Circuit + Mabishan, Taroko National Park, Taiwan (4 days)
 
