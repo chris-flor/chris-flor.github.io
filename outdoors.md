@@ -11,7 +11,7 @@ When I'm not doing research, you can find me outdoors! Below are some of the rac
 
 <figure style="width: 140%; margin: 0;">
   <div style="display: flex; gap: 1rem; align-items: flex-start;">
-    <img src="/assets/img/sfm1.JPG" alt="First image" style="width: 50%; display: block;">
+    <img src="/assets/img/sfm1.jpg" alt="First image" style="width: 50%; display: block;">
     <img src="/assets/img/sfm2.jpg" alt="Second image" style="width: 50%; display: block;">
   </div>
   <figcaption style="margin-top: 0.5rem; text-align: center; font-size: 0.9rem;">
