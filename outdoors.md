@@ -11,12 +11,17 @@ When I'm not doing research, you can find me outdoors! Below are some of the rac
 
 <figure style="width: 40%; margin: 1rem 0;">
   <img src="/assets/img/trailfest.JPG" style="width: 100%; display: block;">
+  <figcaption style="text-align: center; font-style: italic;">July '26: San Francisco Marathon (3:20:50) </figcaption>
+</figure>
+
+<figure style="width: 40%; margin: 1rem 0;">
+  <img src="/assets/img/trailfest.JPG" style="width: 100%; display: block;">
   <figcaption style="text-align: center; font-style: italic;">Apr '26: Stanford Alpine Club Trailfest 16 miler</figcaption>
 </figure>
 
 <figure style="width: 40%; margin: 1rem 0;">
   <img src="/assets/img/IMG_1619.jpg" style="width: 100%; display: block;">
-  <figcaption style="text-align: center; font-style: italic;">Nov '25: Berkeley Half-Marathon (2nd place nonbinary finisher)</figcaption>
+  <figcaption style="text-align: center; font-style: italic;">Nov '25: Berkeley Half-Marathon (1:26:44)</figcaption>
 </figure>
 
 ## Trekking
