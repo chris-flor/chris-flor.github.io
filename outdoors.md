@@ -17,7 +17,9 @@ title: Outdoors
 
   .sf-marathon-grid img {
     width: 100%;
-    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    object-position: center;
     display: block;
   }
 
@@ -30,6 +32,12 @@ title: Outdoors
     width: 100%;
     height: auto;
     display: block;
+  }
+
+  .berkeley-photo img {
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    object-position: center;
   }
 
   .photo-caption {
@@ -114,7 +122,7 @@ Apr '26: Stanford Alpine Club Trailfest 16 miler
 
 Nov '25: Berkeley Half-Marathon (1:26:44)
 
-<figure class="running-photo">
+<figure class="running-photo berkeley-photo">
   <img
     src="/assets/img/IMG_1619.jpg"
     alt="Berkeley Half-Marathon"
