@@ -23,9 +23,9 @@ title: Outdoors
     display: block;
   }
 
-  /* Show more of the top of SF Marathon photo 2 */
+  /* Anchor SF Marathon photo 2 lower so the face is not cut off */
   .sf-marathon-grid .sfm2-photo {
-    object-position: center 25%;
+    object-position: center bottom;
   }
 
   .running-photo {
@@ -39,11 +39,11 @@ title: Outdoors
     display: block;
   }
 
-  /* Show more of the bottom of the Berkeley photo */
+  /* Keep the Berkeley photo at 4:3 and preserve the bottom of the image */
   .berkeley-photo img {
     aspect-ratio: 4 / 3;
     object-fit: cover;
-    object-position: center 75%;
+    object-position: center bottom;
   }
 
   .photo-caption {
@@ -76,9 +76,9 @@ title: Outdoors
     object-position: center;
   }
 
-  /* Show the full sign and less ground in the first Kilimanjaro photo */
+  /* Preserve the top of the first Kilimanjaro photo and crop more ground */
   .kili-grid .kili-sign-photo {
-    object-position: center 15%;
+    object-position: center top;
   }
 
   @media (max-width: 700px) {
