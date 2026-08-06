@@ -23,11 +23,6 @@ title: Outdoors
     display: block;
   }
 
-  /* Reverted SF Marathon photo 2 to its previous crop */
-  .sf-marathon-grid .sfm2-photo {
-    object-position: center 25%;
-  }
-
   .running-photo {
     width: 40%;
     margin: 1rem 0;
@@ -39,11 +34,10 @@ title: Outdoors
     display: block;
   }
 
-  /* Reverted the Berkeley photo to its previous crop */
   .berkeley-photo img {
     aspect-ratio: 4 / 3;
     object-fit: cover;
-    object-position: center 75%;
+    object-position: center;
   }
 
   .photo-caption {
@@ -70,7 +64,6 @@ title: Outdoors
     display: block;
   }
 
-  /* Keep the revised centered Kilimanjaro crops */
   .kili-grid img {
     aspect-ratio: 4 / 3;
     object-fit: cover;
@@ -111,7 +104,6 @@ July '26: San Francisco Marathon (3:20:50)
       alt="Running the San Francisco Marathon"
     >
     <img
-      class="sfm2-photo"
       src="/assets/img/sfm2.jpg"
       alt="At the San Francisco Marathon"
     >
@@ -125,6 +117,7 @@ Apr '26: Stanford Alpine Club Trailfest 16 miler
     src="/assets/img/trailfest.JPG"
     alt="Stanford Alpine Club Trailfest"
   >
+
 </figure>
 
 Nov '25: Berkeley Half-Marathon (1:26:44)
@@ -134,6 +127,7 @@ Nov '25: Berkeley Half-Marathon (1:26:44)
     src="/assets/img/IMG_1619.jpg"
     alt="Berkeley Half-Marathon"
   >
+
 </figure>
 
 ## Trekking
@@ -187,3 +181,7 @@ March '26: Nanhu Circuit + Mabishan, Taroko National Park, Taiwan (4 days)
     >
   </figure>
 </div>
+
+
+
+
