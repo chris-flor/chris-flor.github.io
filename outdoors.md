@@ -23,9 +23,9 @@ title: Outdoors
     display: block;
   }
 
-  /* Anchor SF Marathon photo 2 lower so the face is not cut off */
+  /* Reverted SF Marathon photo 2 to its previous crop */
   .sf-marathon-grid .sfm2-photo {
-    object-position: center bottom;
+    object-position: center 25%;
   }
 
   .running-photo {
@@ -39,11 +39,11 @@ title: Outdoors
     display: block;
   }
 
-  /* Keep the Berkeley photo at 4:3 and preserve the bottom of the image */
+  /* Reverted the Berkeley photo to its previous crop */
   .berkeley-photo img {
     aspect-ratio: 4 / 3;
     object-fit: cover;
-    object-position: center bottom;
+    object-position: center 75%;
   }
 
   .photo-caption {
@@ -70,15 +70,11 @@ title: Outdoors
     display: block;
   }
 
+  /* Keep the revised centered Kilimanjaro crops */
   .kili-grid img {
     aspect-ratio: 4 / 3;
     object-fit: cover;
     object-position: center;
-  }
-
-  /* Preserve the top of the first Kilimanjaro photo and crop more ground */
-  .kili-grid .kili-sign-photo {
-    object-position: center top;
   }
 
   @media (max-width: 700px) {
@@ -147,7 +143,6 @@ July '26: Kilimanjaro (7 days Lemosho Route)
 <div class="trek-grid kili-grid">
   <figure>
     <img
-      class="kili-sign-photo"
       src="/assets/img/kili1_together.JPG"
       alt="Trekking on Mount Kilimanjaro"
     >
@@ -192,7 +187,3 @@ March '26: Nanhu Circuit + Mabishan, Taroko National Park, Taiwan (4 days)
     >
   </figure>
 </div>
-
-
-
-
