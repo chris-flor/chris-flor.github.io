@@ -4,7 +4,7 @@ layout: default
 
 ## About Me
 
-Welcome! I am a PhD Candidate in political science at Stanford University. My research examines political behavior and race, ethnicity, and identity in the U.S. using machine learning and causal inference techniques. 
+Welcome! I am a PhD Candidate in political science at Stanford University. My research examines political behavior and race, ethnicity, and identity in the U.S. using machine learning and causal inference techniques. I am on the academic job market during the 2026-2027 year.
 
 My dissertation focuses on the ethnoracial identities of Latinos, who make up one in five individuals in the U.S. and complicate prevailing understandings of race and ethnicity. Using surveys, interviews, and administrative data, I explore the multiple ways Latinos identify their race in the U.S., how and why these ethnoracial identities are linked to political attitudes, and how they are socially constructed. In other projects, I examine Latino partisanship and immigration attitudes, racial fluidity, and political campaign rhetoric on immigration and Latinos. 
 
