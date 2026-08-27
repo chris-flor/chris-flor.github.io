@@ -13,7 +13,7 @@ title: Research
 
 ### [“La Raza (Des)Unida: Blackness, Whiteness, and Latino Racial Politics Beyond Panethnicity.”]({{ '/assets/papers/la-raza-desunida.pdf' | relative_url }}) (Job market paper)
 
-[Paper (PDF)]({{ '/assets/la_raza_desunida_jmp_7_08_26.pdf' | relative_url }})
+[Paper (PDF)]({{ '/assets/la_raza_desunida_jmp_27_08_26.pdf' | relative_url }})
 
 Existing work in Latino politics has focused on the role of panethnic identities in fostering collective mobilization, but this literature leaves us ill-equipped to comprehend substantial intra-Latino disagreement on racialized policies like immigration. I argue that Latinos’ racial attachments to groups beyond panethnicity can help us understand these instances of intra-group difference. In addition to maintaining panethnic or national origin identities, many Latinos strongly identify as white or Black. These identities reflect meaningful commitments to upholding dominant whiteness or contesting anti-Blackness. Because negative racial stereotypes around racialized “illegality” threaten claims to whiteness, strong white-identifying Latinos distance themselves from undocumented Latino immigrants. Two original surveys demonstrate that white identities among Latinos are strongly related to Trump support and negative attitudes toward undocumented immigrants, while Black identities predict liberal Black-centered policy attitudes. These findings broaden our understanding of Latino politics beyond panethnicity and suggest new ways of conceptualizing ethnoracial identities.
 
@@ -25,6 +25,6 @@ How do Latinos identify their race, and why? In this paper, I advance a novel fr
 
 ### [“Who Changes Their Race, and Why?”]({{ '/assets/papers/priec paper flores.pdf' | relative_url }})
 
-[Paper (PDF)]({{ '/assets/papers/who-changes-their-race.pdf' | relative_url }})
+[Paper (PDF)]({{ '/assets/papers/priec paper flores.pdf' | relative_url }})
 
 While a growing body of work connects racial fluidity to inequality and politics, we know less about exactly who changes their race and its relation to other social processes. Leveraging a nationally representative, probability-based panel of over 16,000 U.S. adults from 2017 to 2024, this paper elucidates the social and demographic dimensions of racial fluidity. Random forests reveal that being a political independent or moderate is the strongest predictor of instability in racial self-classifications. Employing a difference-in-differences design, I show that becoming Republican or college-educated predicts whitening, and this result is strongest among Latinos. Religion has a distinct relationship for Latinos and non-Latinos, with Latinos who become Mormon shifting to nonwhite self-classifications and non-Latinos who identify as Jewish shifting to white self-classifications. These findings clarify why some individuals change their race and have implications for theories of ethnoracial boundaries and assimilation.
