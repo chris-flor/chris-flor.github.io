@@ -4,13 +4,6 @@ title: Research
 ---
 ## Working Papers
 
----
-layout: default
-title: Research
----
-
-## Working Papers
-
 ### [“La Raza (Des)Unida: Blackness, Whiteness, and Latino Racial Politics Beyond Panethnicity.”]({{ '/assets/papers/la-raza-desunida.pdf' | relative_url }}) (Job market paper)
 
 [Paper (PDF)]({{ '/assets/la_raza_desunida_jmp_27_08_26.pdf' | relative_url }})
