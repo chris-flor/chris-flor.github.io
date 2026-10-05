@@ -3,31 +3,292 @@
 
 @import "jekyll-theme-minimal";
 
+// ---------------------------------------------------------------------------
+// Typography. Colors are intentionally untouched: everything below uses the
+// same palette the site already had (theme grays, #267CB9 links, burgundy nav).
+// ---------------------------------------------------------------------------
+$font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, sans-serif;
+$font-heading: "Source Serif 4", "Source Serif Pro", Georgia,
+  "Times New Roman", serif;
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  padding: 60px 40px 50px;
+  font-family: $font-body;
+  font-size: 17px;
+  line-height: 1.7;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-heading;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+
+h2 {
+  font-size: 1.85rem;
+  line-height: 1.2;
+  margin-bottom: 1.25rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  line-height: 1.35;
+  margin: 2.25rem 0 0.75rem;
+}
+
+p, li {
+  text-wrap: pretty;
+}
+
+p, ul, ol {
+  margin-bottom: 1.25rem;
+}
+
+strong {
+  font-weight: 600;
+}
+
+// Links: underline on hover instead of the theme's bold-on-hover, which made
+// the text jump around every time you moused over a link.
+a {
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+a:hover,
+a:focus {
+  font-weight: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+section a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+section ul li,
+section ol li {
+  margin-bottom: 0.6rem;
+}
+
+img {
+  border-radius: 4px;
+}
+
+figcaption,
+.photo-caption {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+hr {
+  margin: 2rem 0;
+}
+
+// ---------------------------------------------------------------------------
+// Top navigation bar
+// ---------------------------------------------------------------------------
+#topnav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(114, 47, 55, 0.9);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.12);
+  z-index: 9999;
+}
+
+#topnav ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  height: 52px;
+  align-items: center;
+}
+
+#topnav ul li {
+  margin: 0;
+}
+
+#topnav ul li a {
+  display: inline-block;
+  color: #f5f5f5;
+  text-decoration: none;
+  font-family: $font-body;
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.3rem 0;
+  border-bottom: 1px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+#topnav ul li a:hover,
+#topnav ul li a:focus {
+  color: #e8b4b8;
+  text-decoration: none;
+}
+
+#topnav ul li a[aria-current="page"] {
+  border-bottom-color: #f5f5f5;
+}
+
+// ---------------------------------------------------------------------------
+// Sidebar (home page)
+// ---------------------------------------------------------------------------
+.wrapper header {
+  padding-top: 2.5rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  line-height: 1.15;
+  margin-bottom: 1.25rem;
+}
+
+header h1 a {
+  color: #232323;
+  text-decoration: none;
+}
+
+header h1 a:hover {
+  color: #6baed6;
+  text-decoration: none;
+}
+
+header img {
+  display: block;
+  width: 190px;
+  height: 190px;
+  object-fit: cover;
+  object-position: center 20%;
+  border-radius: 50%;
+  margin-bottom: 1.25rem;
+}
+
+header p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+header p.view a {
+  display: inline-block;
+  padding: 0.35rem 0.9rem;
+  border: 1px solid #267CB9;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+header p.view a:hover,
+header p.view a:focus {
+  background-color: #267CB9;
+  color: #fff;
+  text-decoration: none;
+}
+
+// ---------------------------------------------------------------------------
+// Page layout
+// ---------------------------------------------------------------------------
 section {
   margin-top: 0 !important;
 }
 
-nav ul {
-  margin-top: 0 !important;
+section > h2:first-child {
+  margin-top: 2.5rem;
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  gap: 1.5rem;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1.5rem;
+@media screen and (min-width: 961px) {
+  .wrapper {
+    width: auto;
+    max-width: 1000px;
+  }
+
+  header {
+    width: 260px;
+  }
+
+  // Thin divider between sidebar and main column (home page only)
+  body:not(.no-sidebar) section {
+    box-sizing: border-box;
+    width: calc(100% - 300px);
+    padding-left: 2.5rem;
+    border-left: 1px solid #e5e5e5;
+  }
 }
 
-nav ul li a {
-  text-decoration: none;
-  font-weight: bold;
-  color: #494e52;
+@media screen and (max-width: 960px) {
+  body {
+    padding: 60px 24px 40px;
+  }
+
+  header {
+    padding-right: 0;
+  }
+
+  section > h2:first-child {
+    margin-top: 1.5rem;
+  }
 }
 
-nav ul li a:hover {
-  color: #000;
-  text-decoration: underline;
+@media screen and (max-width: 560px) {
+  body {
+    font-size: 16px;
+    padding: 60px 18px 32px;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  #topnav ul {
+    gap: 1.25rem;
+  }
+
+  #topnav ul li a {
+    font-size: 0.74rem;
+    letter-spacing: 0.08em;
+  }
+}
+
+// Non-home pages: hide the sidebar and center the content
+body.no-sidebar {
+  .wrapper {
+    display: block;
+  }
+
+  header {
+    display: none;
+  }
+
+  section {
+    float: none;
+    width: 100%;
+    max-width: 740px;
+    margin: 2.5rem auto !important;
+    padding: 0 1.5rem;
+    border: 0;
+  }
 }
