@@ -10,91 +10,20 @@
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
-    <style>
-      header h1 a {
-        color: #232323;
-        text-decoration: none;
-      }
-      header h1 a:hover {
-        color: #6baed6;
-      }
-      body {
-        padding-top: 60px;
-        font-family: 'DM Sans', sans-serif;
-        font-size: 16px;
-      }
-
-      /* Dark magenta nav bar */
-      #topnav {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        background-color: rgba(114, 47, 55, 0.9);
-        backdrop-filter: blur(4px);
-        z-index: 9999;
-      }
-      #topnav ul {
-        list-style: none;
-        margin: 0 auto;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        gap: 2.5rem;
-        height: 50px;
-        align-items: center;
-      }
-      #topnav ul li a {
-        color: #f5f5f5;
-        text-decoration: none;
-        font-size: 1.1rem;
-        font-weight: 600;
-        letter-spacing: 0.05em;
-        font-family: 'DM Sans', sans-serif;
-      }
-      #topnav ul li a:hover {
-        color: #e8b4b8;
-      }
-
-      /* Push "About Me" heading away from the nav bar */
-      section > h2:first-child {
-        margin-top: 2.5rem;
-      }
-
-      /* Also applies on home page where sidebar is present */
-      .wrapper header {
-        padding-top: 1.5rem;
-      }
-
-      /* Non-home pages: hide sidebar, center content */
-      body.no-sidebar .wrapper {
-        display: block;
-      }
-      body.no-sidebar header {
-        display: none;
-      }
-      body.no-sidebar section {
-        float: none;
-        width: 100%;
-        max-width: 740px;
-        margin: 2.5rem auto;
-        padding: 0 1.5rem;
-      }
-    </style>
   </head>
   <body class="{{ page.layout }}{% if page.url != '/' %} no-sidebar{% endif %}">
 
     <nav id="topnav">
       <ul>
-        <li><a href="{{ '/' | relative_url }}">Home</a></li>
-        <li><a href="{{ '/research' | relative_url }}">Research</a></li>
-        <li><a href="{{ '/teaching' | relative_url }}">Teaching</a></li>
-        <li><a href="{{ '/outdoors' | relative_url }}">Outdoors</a></li>
+        <li><a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a></li>
+        <li><a href="{{ '/research' | relative_url }}"{% if page.url contains '/research' %} aria-current="page"{% endif %}>Research</a></li>
+        <li><a href="{{ '/teaching' | relative_url }}"{% if page.url contains '/teaching' %} aria-current="page"{% endif %}>Teaching</a></li>
+        <li><a href="{{ '/outdoors' | relative_url }}"{% if page.url contains '/outdoors' %} aria-current="page"{% endif %}>Outdoors</a></li>
       </ul>
     </nav>
 
