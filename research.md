@@ -4,7 +4,7 @@ title: Research
 ---
 ## Working Papers
 
-### “La Raza (Des)Unida: Blackness, Whiteness, and Latino Racial Politics Beyond Panethnicity.” (Job market paper; Submitted)
+### “La Raza (Des)Unida: Blackness, Whiteness, and Latino Racial Politics Beyond Panethnicity.” (Job market paper; submitted)
 
 [Paper (PDF)]({{ '/assets/research-papers/flores jmp 11 03 26.pdf' | relative_url }})
 
