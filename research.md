@@ -6,7 +6,7 @@ title: Research
 
 ### “La Raza (Des)Unida: Blackness, Whiteness, and Latino Racial Politics Beyond Panethnicity.” (Job market paper; Submitted)
 
-[Paper (PDF)]({{ '/assets/research-papers/flores la raza desunida jmp 30 10 26.pdf' | relative_url }})
+[Paper (PDF)]({{ '/assets/research-papers/flores jmp 11 03 26.pdf' | relative_url }})
 
 Existing work has focused on the role of panethnic identities in structuring Latino political attitudes, but this literature leaves us ill-equipped to comprehend substantial intra-Latino disagreement on racialized policies like immigration. I argue that Latinos’ racial attachments to groups beyond panethnicity can help explain these instances of intra-group difference. In addition to maintaining panethnic or national origin identities, many Latinos strongly identify as White or Black. These identities reflect meaningful commitments to upholding dominant Whiteness or contesting anti-Blackness. Because negative racial stereotypes around racialized “illegality” threaten claims to Whiteness, strong White-identifying Latinos distance themselves from undocumented Latino immigrants. Two original surveys show that White identities among Latinos are strongly related to Trump support and negative attitudes toward undocumented immigrants, while Black identities predict liberal Black-centered policy attitudes. Findings demonstrate that Black and White identities among Latinos rival or surpass panethnic identities in explaining variation in racialized political attitudes.
 
